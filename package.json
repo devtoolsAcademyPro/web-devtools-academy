@@ -15,12 +15,16 @@
   "author": {
     "email": "devtools.academypro@gmail.com",
     "name": "devtools-team",
-    "preserveUnused": ["commit-msg"]
+    "preserveUnused": [
+      "commit-msg"
+    ]
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged && npm run test"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.4.0",
+    "framer-motion": "^11.2.6",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",
